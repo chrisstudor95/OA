@@ -1,0 +1,135 @@
+
+body {
+  font-family: 'Satisfy', cursive;
+  font-family: 'Tangerine', cursive;
+  background-image: url(france-bg.jpg);
+  font-size: 40px;
+  }
+
+
+.sidebar {
+  height: 100%;
+  width: 175px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  font-family:'Tangerine', cursive; ;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+#culture{
+    color: red;
+    font-size: 50px;
+    margin-left:-25px;
+}
+#traditions{
+    color:white;
+    font-size: 50px;
+    margin-left: -25px;
+}
+#celebrations{
+    color:blue;
+    font-size: 50px;
+    margin-left: -25px;
+}
+h1{
+    text-align: center;  
+    font-size:80px;
+    color:black;
+    text-shadow:  4px 4px 8px  rgba(0, 0, 0, 0.63);
+}
+h2{
+  font-size: 70px;
+  color: black;
+  text-shadow:  4px 4px 8px  rgba(0, 0, 0, 0.63);
+  text-align: center;
+  background-color: red;
+
+}
+h3{
+  font-size: 60px;
+  color:blue;
+  text-align: center;
+    text-shadow:  4px 4px 8px  rgba(0, 0, 255, 0.695);
+  }
+h4{
+  font-size: 50px;
+  color:red;
+    text-shadow:  4px 4px 8px  rgba(255, 0, 0, 0.649);
+
+}
+#CULTURE, #TRADITIONS, #CELEBRATIONS{
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+#title{ 
+  background-color: white;
+  box-shadow: blue 0px 0px 0px 3px, white 0px 0px 0px 6px,red 0px 0px 0px 9px;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+.images{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 75%;
+  border-radius: 50%;
+  border: 5px solid blue;
+}
+.images:hover{
+  box-shadow: 0 0 50px 0px blue;
+}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
