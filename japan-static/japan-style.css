@@ -1,0 +1,6 @@
+.japan-head{
+    background-image: url('/japan-static/img/japan-jumbotron.jpg')!important;
+}
+.font-head, .font-p{
+    font-family: Bitter, serif, sans-serif;
+}
