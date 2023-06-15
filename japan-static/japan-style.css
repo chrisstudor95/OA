@@ -1,6 +1,20 @@
-.japan-head{
-    background-image: url('/japan-static/img/japan-jumbotron.jpg')!important;
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('/japan-static/img//japan1.jpeg');
+    background-position: fixed; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+   
+
 }
+
+.japan-head{
+    background-color: rgba(93, 213, 253, 0.5);
+
+}
+   
 .font-head, .font-p{
     font-family: Bitter, serif, sans-serif;
 }
